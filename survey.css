@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Nunito;
+    font-size: 1.12rem;
+}
+
+body {
+    background-image: url(../images/survey_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title-box {
+    margin: 2%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#survey-form {
+    background-color: rgba(250, 250, 250, 0.8);
+    margin: 5% 12% 5% 12%;
+    display: flex;
+    flex-direction: column;
+}
+
+#survey-form div {
+    margin: 3%;
+}
+
+#radio_buttons label div {
+    display: flex;
+    flex-direction: column;
+}
+
+#checkboxes-div label div {
+    display: flex;
+    flex-direction: column;
+}
+
+#Extra-comments {
+    text-align: center;
+}
+
+#Extra-comments textarea {
+    width: 80%;
+}
+
+#button-div {
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    background-color: gold;
+}
